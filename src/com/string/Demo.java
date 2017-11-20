@@ -20,4 +20,14 @@ public class Demo {
 		}
 		return output;
 	}
+	public void performance(){
+		for (int i = 0; i < 10000000; i++) {
+			
+		}
+		System.out.println("---------------------Finish----------");
+	}
+	public void exception(int number){
+		int result = 10/number;
+		System.out.println("result=>"+result);
+	}
 }
